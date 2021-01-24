@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import Clicker from './Clicker';
+// import RollDice from './RollDice';
+// import RockScissorsPaper from './RockScissorsPaper';
+// import Lottery from './Lottery';
+// import CoinFlipper from './CoinFilpper';
+import BoxContainer from './BoxContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Lottery />
+      <Lottery title="Mini Daily" numBalls={4} maxNum={10} /> */}
+      {/* <CoinFlipper /> */}
+      <BoxContainer />
     </div>
   );
 }
